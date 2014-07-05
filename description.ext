@@ -33,7 +33,7 @@ class RscText
 	y = 0;
 	h = 0.037;
 	w = 0.3;
-	style = 0x100; 
+	style = 0x100;
 	font = Zeppelin32;
 	SizeEx = 0.03921;
 	colorText[] = {1,1,1,1};
@@ -88,7 +88,7 @@ class RscProgressNotFreeze
 // the loading screen itself
 //
 class DayZ_loadingScreen
-{ 
+{
 	idd = -1;
 	duration = 10e10;
 	fadein = 0;
@@ -148,3 +148,6 @@ class DayZ_loadingScreen
 		};
 	};
 };
+
+// Epoch Admin Tools
+#include "admintools\dialog.hpp"
