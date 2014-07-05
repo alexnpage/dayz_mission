@@ -106,3 +106,6 @@ execVM "\z\addons\dayz_code\external\DynamicWeatherEffects.sqf";
 
 // Epoch Admin Tools
 [] execVM "admintools\Activate.sqf";
+
+// Custom buildings
+[] execVM "\z\addons\dayz_server\custom\buildings.sqf";
