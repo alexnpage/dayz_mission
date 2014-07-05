@@ -109,7 +109,9 @@ execVM "\z\addons\dayz_code\external\DynamicWeatherEffects.sqf";
 [] execVM "admintools\Activate.sqf";
 
 // Custom buildings
-[] execVM "\z\addons\dayz_server\custom\buildings.sqf";
+if (isServer) then {
+	[] execVM "\z\addons\dayz_server\custom\buildings.sqf";
+}
 
 [] execvm 'AGN\agn_SafeZoneCommander.sqf';
 
