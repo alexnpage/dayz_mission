@@ -151,5 +151,3 @@ class DayZ_loadingScreen
 
 // Epoch Admin Tools
 #include "admintools\dialog.hpp"
-
-#include "extra_rc.hpp"
