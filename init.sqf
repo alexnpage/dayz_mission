@@ -94,6 +94,7 @@ if (!isDedicated) then {
 	//Lights
 	//[false,12] execVM "\z\addons\dayz_code\compile\local_lights_init.sqf";
 
+	execVM "service_point\service_point.sqf";
 };
 
 #include "\z\addons\dayz_code\system\REsec.sqf"
