@@ -20,7 +20,12 @@ enableRadio false;
 enableSentences false;
 
 // DayZ Epoch config
-spawnShoremode = 1; // Default = 1 (on shore)
+DefaultMagazines = ["ItemPainkiller","ItemBandage","ItemMorphine","8Rnd_9x18_Makarov"];
+DefaultWeapons = ["ItemFlashlight","ItemMap","ItemToolbox","Makarov"];
+DefaultBackpack = "DZ_Patrol_Pack_EP1";
+DefaultBackpackWeapon = "";
+
+spawnShoremode = 0; // Default = 1 (on shore)
 spawnArea= 1500; // Default = 1500
 
 MaxVehicleLimit = 300; // Default = 50
