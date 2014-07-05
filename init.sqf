@@ -112,3 +112,5 @@ execVM "\z\addons\dayz_code\external\DynamicWeatherEffects.sqf";
 [] execVM "\z\addons\dayz_server\custom\buildings.sqf";
 
 [] execvm 'AGN\agn_SafeZoneCommander.sqf';
+
+call compile preprocessFileLineNumbers "addons\bike\init.sqf";
