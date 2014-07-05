@@ -2,7 +2,7 @@
 /* [ **CLASS_TO_CLICK** , **TYPE_OF_CLASS_TO_CLICK** , **DEPLOY_DISTANCE** , **DEPLOY_DIRECTION_OFFSET** , **PACK_DISTANCE** , **ALLOW_PACKING** , **ALLOW_PACKING_OTHERS** , **ALLOW_PACKING_WORLD** , [ **CLASS_TO_DEPLOY** , **CLASS_TO_DEPLOY2** ] ] */
 DZE_DEPLOYABLES_CONFIG = [
     // deploy bike from toolbox 2 meters in front of player at 270 degree rotation that can be repacked
-    ["ItemToolbox","CfgWeapons",2,270,5,true,true,true,["MMT_Civ"]],
+    ["ItemToolbox","CfgWeapons",2,270,5,true,true,true,["MMT_Civ"]]//,
     // deploy fortifications from etool 3 meters in front of player that can be repacked
     //["ItemEtool","CfgWeapons",3,0,5,true,true,false,["Land_fort_rampart","Fort_StoneWall_EP1"]],
     // deploy helicopter from ruby 5 meters in front of player that can't be repacked
