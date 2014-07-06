@@ -8,6 +8,8 @@ disabledAI = true;
 disableChannels[]={0,2,6};
 enableItemsDropping = 0;
 
+#include "dayz_code\Configs\CfgLoot\CfgBuildingLoot.hpp"
+
 briefing = 0;
 debriefing = 0;
 
